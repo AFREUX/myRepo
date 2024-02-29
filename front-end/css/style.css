@@ -1,0 +1,129 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("backgroud.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    width: 420px;
+    background: rgba(227, 227, 227, 0.09);
+    border: 2px solid grey;
+    backdrop-filter: blur(20px);
+    box-shadow: 4px 4px 15px black;
+    color :rgb(232, 237, 251);
+    border-radius: 10px;
+    padding: 30px 40px;
+     
+}
+.login h1{
+font-size: 36px;
+text-align: center;
+}
+
+.login .form-control{
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.form-control input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(227, 227, 227);
+    padding: 20px 45px 20px 20px;
+}
+
+.form-control input::placeholder{
+    color: rgba(255, 255, 255, 0.551)
+}
+.form-control i{
+    color: rgb(232, 237, 251);
+    right: 20px;
+    top: 50%;
+    transform: translateY(-40px) translateX(304px);
+    font-size: 20px;
+}
+
+.form-control label{
+    padding: 10px;
+}
+
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#room{
+    color: aliceblue;
+    background-color: transparent;
+}
+
+#room option{
+    color: black;
+}
+
+.buton{
+    width: 40%;
+    height: 40px;
+    align-content: center;
+    background: rgb(124, 160, 171);
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(227, 227, 227, 0.347);
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+    transition: 500ms ease-in-out;
+}
+.buton:hover{
+    background: rgb(164, 187, 194);
+    box-shadow: 1px 1px 2px rgba(227, 227, 227, 0.67);
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 250px;
+    min-height: 50px;
+
+}
+
+.select-container select{
+    border-radius: 20px;
+    padding: 13px;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.select-container .icon-container {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-container i {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
